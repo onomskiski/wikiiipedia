@@ -1,0 +1,33 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Mon, 06 May 2024 19:42:15 at https://en.wikipedia.org/wiki/Binance +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://en.wikipedia.org/wiki/Binance -O "/home/arewageek/dev/clones/binance" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:54:06	Warning: 	Moved Permanently for upload.wikimedia.org/robots.txt
+19:54:06	Warning: 	Redirected link is identical because of 'URL Hack' option: upload.wikimedia.org/robots.txt and https://upload.wikimedia.org/robots.txt
+19:54:06	Warning: 	Warning moved treated for upload.wikimedia.org/robots.txt (real one is https://upload.wikimedia.org/robots.txt)
+19:54:06	Warning: 	Moved Permanently for upload.wikimedia.org/
+19:54:06	Warning: 	Redirected link is identical because of 'URL Hack' option: upload.wikimedia.org/ and https://upload.wikimedia.org/
+19:54:06	Warning: 	File has moved from upload.wikimedia.org/ to https://upload.wikimedia.org/
+19:55:02	Warning: 	Moved Permanently for meta.wikimedia.org/robots.txt
+19:55:02	Warning: 	Redirected link is identical because of 'URL Hack' option: meta.wikimedia.org/robots.txt and https://meta.wikimedia.org/robots.txt
+19:55:02	Warning: 	Warning moved treated for meta.wikimedia.org/robots.txt (real one is https://meta.wikimedia.org/robots.txt)
+19:55:02	Warning: 	Moved Permanently for meta.wikimedia.org/
+19:55:02	Warning: 	Redirected link is identical because of 'URL Hack' option: meta.wikimedia.org/ and https://meta.wikimedia.org/
+19:55:02	Warning: 	File has moved from meta.wikimedia.org/ to https://meta.wikimedia.org/
+19:55:03	Warning: 	Moved Permanently for login.wikimedia.org/robots.txt
+19:55:03	Warning: 	Redirected link is identical because of 'URL Hack' option: login.wikimedia.org/robots.txt and https://login.wikimedia.org/robots.txt
+19:55:03	Warning: 	Warning moved treated for login.wikimedia.org/robots.txt (real one is https://login.wikimedia.org/robots.txt)
+19:55:03	Warning: 	Moved Permanently for login.wikimedia.org/
+19:55:03	Warning: 	Redirected link is identical because of 'URL Hack' option: login.wikimedia.org/ and https://login.wikimedia.org/
+19:55:03	Warning: 	File has moved from login.wikimedia.org/ to https://login.wikimedia.org/
+22:53:12	Warning: 	Link https://en.wikipedia.org/wiki/Special:RecentChanges not scanned (follow robots meta tag)
+22:54:16	Warning: 	Link https://en.wikipedia.org/wiki/Special:Search not scanned (follow robots meta tag)
+22:54:18	Warning: 	Link https://en.wikipedia.org/wiki/Special:MyContributions not scanned (follow robots meta tag)
+22:54:19	Warning: 	Link https://en.wikipedia.org/wiki/Special:MyTalk not scanned (follow robots meta tag)
+22:59:41	Warning: 	Link https://en.wikipedia.org/wiki/Special:WhatLinksHere/Binance not scanned (follow robots meta tag)
+22:59:48	Warning: 	Link https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Binance not scanned (follow robots meta tag)
+22:59:50	Warning: 	Link https://en.wikipedia.org/wiki/Special:SpecialPages not scanned (follow robots meta tag)
